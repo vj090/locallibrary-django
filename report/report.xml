@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report
+            string="History Report"
+            id="sale_order_line_report_xlsx"
+            model="sale.order"
+            name="sale_history.sale_order_history_line_xlsx"
+            file="sale_history.sale_order_history_line_xlsx"
+            report_type="xlsx"
+        />
+    </data>
+</odoo>
